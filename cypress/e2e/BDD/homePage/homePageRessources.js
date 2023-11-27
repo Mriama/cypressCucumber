@@ -6,5 +6,5 @@ before(function(){
 beforeEach(function () {
     cy.visit('/')
     cy.viewport(1440, 900)
-    cy.get('.osano-cm-accept-all').click()
+    //cy.get('.osano-cm-accept-all').click()
 });
