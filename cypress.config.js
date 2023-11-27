@@ -20,6 +20,7 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: "https://learn.cypress.io/",
     specPattern: "**/*.feature",
-    setupNodeEvents
+    setupNodeEvents,
+    video: true,
   },
 });
